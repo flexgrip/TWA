@@ -1,0 +1,6 @@
+#!/bin/sh
+DIR=$(dirname $(which $0))
+export NODE_PATH=/usr/local/lib/node_modules/npm/node_modules
+node $DIR/sencha.js $*
+#export NODE_PATH=$DIR/vendor/nodejs/node_modules
+#$DIR/vendor/nodejs/osx/node $DIR/sencha.js $*
